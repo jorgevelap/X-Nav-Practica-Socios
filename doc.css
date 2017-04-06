@@ -1,0 +1,21 @@
+
+#navCont {
+    background-color: #00FFC0;
+    font-size:20px;
+}
+
+#nav2{
+	background-color:white;
+    padding-top:70px;
+    background-color: #00FFC0;
+}
+#wordSocio{
+    color:green;
+    padding-top:4px;
+	font-size:30px;
+}
+
+#recuadro{
+    background: linear-gradient(to right,white, #E6E6FA); 
+    background-color:#E6E6FA;
+}
