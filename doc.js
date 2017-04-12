@@ -33,7 +33,7 @@ $(document).ready(function(){
 		var d=$.getJSON("update.json", function(data){
 
 			for(l in data){
-		cad+="<div id='recuadro' onclick='paco("+'"#target'+l+'"'+")' class='col-md-12 well container'><div style='float: left; width: 10%;' >"+"<img class='img' id='imagen' src='"+data	[l].Avatar+"' width='120' height='120'>"+"</div>"+"<div style='padding-left:15px;float: left; width: 60%;' ><br>"+data[l].Autor+"</br><b>"+data[l].Titulo+"</b>:<p id="+'"target'+l+'"'+" style='display:none'>"+data[l].Contenido+"</p></div>"+"</div>"
+		cad+="<div id='recuadro' onclick='paco("+'"#targetB'+l+'"'+")' class='col-md-12 well container'><div style='float: left; width: 10%;' >"+"<img class='img' id='imagen' src='"+data	[l].Avatar+"' width='120' height='120'>"+"</div>"+"<div style='padding-left:15px;float: left; width: 60%;' ><br>"+data[l].Autor+"</br><b>"+data[l].Titulo+"</b>:<p id="+'"targetB'+l+'"'+" style='display:none'>"+data[l].Contenido+"</p></div>"+"</div>"
 
 		}
  			var c= document.getElementById("home").innerHTML;  
